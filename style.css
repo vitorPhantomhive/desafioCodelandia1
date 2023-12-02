@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-oficial{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #574AE8, #3EA1DB);
+}
+
+.titulo, p{
+    display: flex !important;
+    justify-content: space-between;
+}
