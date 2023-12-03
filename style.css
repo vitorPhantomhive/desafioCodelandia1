@@ -1,24 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300&display=swap');
+
+input {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 html,
 body {
-  margin: 0;
-  padding: 0;
-}
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header-oficial{
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header-oficial {
     display: flex;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: linear-gradient(to right, #574AE8, #3EA1DB);
+    color: white;
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: 0 25% 0 25%;
-    padding: 0 20px;
+    width: 40%;
+    height: 50%;
 }
 
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    /* margin-top: 50px; */
+    height: 35%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.2); /* Branco com 20% de opacidade */
+    border-radius: 3px;
+    margin-bottom: 1%;
+}
+
+.container-central{
+    display: flex;
+    width: 100vw;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo{
+    display: flex;    
+    width: 40%;
+    height: 50%;
+    ;
+
+}
