@@ -3,16 +3,22 @@ body {
   margin: 0;
   padding: 0;
 }
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .header-oficial{
     display: flex;
     width: 100vw;
     height: 10vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #574AE8, #3EA1DB);
 }
 
-.titulo, p{
-    display: flex !important;
+.titulo{
+    display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin: 0 25% 0 25%;
+    padding: 0 20px;
 }
+
